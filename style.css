@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Radio Canada", sans-serif;
+}
+
+body {
+  /* background-color: rgb(140, 165, 240); */
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% ); */
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+  /* background-color: chartreuse; */
+  background-image: linear-gradient( 180.5deg,  rgba(46,255,171,1) 12.3%, rgba(252,251,222,0.46) 92% );
+}
+
+.rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 1px solid black !important;
+  border-radius: 0 !important;
+  height: 100px;
+  /* margin: 2px; */
+  width: 100px;
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: 500 !important;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.btn:disabled {
+  color: black;
+  cursor: no-drop;
+}
+
+.result {
+  text-align: center;
+}
+
+.reset {
+  text-align: center;
+  /* margin-top: -20px; */
+}
+
+#reset {
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  /* background-color: white; */
+  background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 17px;
+  margin: 35px;
+  transition: all 0.1s ease-in-out;
+}
+
+#reset:hover {
+  color: white;
+  background-color: black;
+}
+
+.br-0{
+    border-right: 0 !important;
+}
+
+.bl-0{
+    border-left: 0 !important;
+}
+
+.bt-0{
+    border-top: 0 !important;
+}
+
+.bb-0{
+    border-bottom: 0 !important;
+}
+
+.color-font {
+    color: white !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-text {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    background: -webkit-linear-gradient(rgb(0, 255, 242), rgb(63, 199, 0));
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
